@@ -102,8 +102,8 @@
             this.btnSimpleImport.Name = "btnSimpleImport";
             this.btnSimpleImport.Size = new System.Drawing.Size(97, 23);
             this.btnSimpleImport.TabIndex = 5;
-            this.btnSimpleImport.Text = "Importar (Simple)";
-            this.toolTip1.SetToolTip(this.btnSimpleImport, "Importa la traducción de un fichero .xlsx\n\nHace coincidir las líneas por el texto" +
+            this.btnSimpleImport.Text = "Importer (Simple)";
+            this.toolTip1.SetToolTip(this.btnSimpleImport, "Importer la traduction d'un fichier .xlsx\n\nCorrespond aux lignes du texte" +
         " original.");
             this.btnSimpleImport.UseVisualStyleBackColor = true;
             this.btnSimpleImport.Click += new System.EventHandler(this.btnSimpleImport_Click);
@@ -115,7 +115,7 @@
             this.btnOffsetImport.Size = new System.Drawing.Size(97, 23);
             this.btnOffsetImport.TabIndex = 4;
             this.btnOffsetImport.Text = "Importar (Offset)";
-            this.toolTip1.SetToolTip(this.btnOffsetImport, "Importa la traducción de un fichero .xlsx\n\nHace coincidir las líneas por el campo" +
+            this.toolTip1.SetToolTip(this.btnOffsetImport, "Importer la traduction d'un fichier .xlsx\n\nCorrespond aux lignes par le champ" +
         " Offset");
             this.btnOffsetImport.UseVisualStyleBackColor = true;
             this.btnOffsetImport.Click += new System.EventHandler(this.btnOffsetImport_Click);
@@ -126,18 +126,18 @@
             this.btnExport.Name = "btnExport";
             this.btnExport.Size = new System.Drawing.Size(97, 23);
             this.btnExport.TabIndex = 3;
-            this.btnExport.Text = "Exportar a Excel";
-            this.toolTip1.SetToolTip(this.btnExport, "Exporta las líneas a un fichero .xlsx");
+            this.btnExport.Text = "Exporter dans Excel";
+            this.toolTip1.SetToolTip(this.btnExport, "Exporter les lignes dans un fichier .xlsx");
             this.btnExport.UseVisualStyleBackColor = true;
             this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
             // 
             // ExportFileDialog
             // 
-            this.ExportFileDialog.Filter = "Archivos Excel|*.xlsx";
+            this.ExportFileDialog.Filter = "Archives Excel|*.xlsx";
             // 
             // ImportFileDialog
             // 
-            this.ImportFileDialog.Filter = "Archivos Excel|*.xlsx";
+            this.ImportFileDialog.Filter = "Archives Excel|*.xlsx";
             // 
             // lblChangedLinesCount
             // 
@@ -147,7 +147,7 @@
             this.lblChangedLinesCount.Name = "lblChangedLinesCount";
             this.lblChangedLinesCount.Size = new System.Drawing.Size(124, 13);
             this.lblChangedLinesCount.TabIndex = 6;
-            this.lblChangedLinesCount.Text = "Líneas modificadas: X/Y";
+            this.lblChangedLinesCount.Text = "Lignes modifiées : X/Y";
             // 
             // GridView
             // 
@@ -158,7 +158,7 @@
             this.Controls.Add(this.dockPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GridView";
-            this.Text = "Subtítulos";
+            this.Text = "Sous-titres";
             ((System.ComponentModel.ISupportInitialize)(this.dockPanel1)).EndInit();
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);

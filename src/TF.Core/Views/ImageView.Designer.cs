@@ -77,7 +77,7 @@
             this.btnImportImage.Name = "btnImportImage";
             this.btnImportImage.Size = new System.Drawing.Size(75, 23);
             this.btnImportImage.TabIndex = 5;
-            this.btnImportImage.Text = "Importar";
+            this.btnImportImage.Text = "Importer";
             this.btnImportImage.UseVisualStyleBackColor = true;
             this.btnImportImage.Click += new System.EventHandler(this.btnImportImage_Click);
             // 
@@ -88,7 +88,7 @@
             this.btnExportImage.Name = "btnExportImage";
             this.btnExportImage.Size = new System.Drawing.Size(75, 23);
             this.btnExportImage.TabIndex = 6;
-            this.btnExportImage.Text = "Exportar";
+            this.btnExportImage.Text = "Exporter";
             this.btnExportImage.UseVisualStyleBackColor = true;
             this.btnExportImage.Click += new System.EventHandler(this.btnExportImage_Click);
             // 
@@ -98,8 +98,8 @@
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
-            "Fondo transparente",
-            "Fondo negro"});
+            "Fond transparent",
+            "Fondo noir"});
             this.comboBox1.Location = new System.Drawing.Point(408, 369);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(187, 21);

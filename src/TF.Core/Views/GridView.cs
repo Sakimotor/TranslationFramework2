@@ -311,7 +311,7 @@ namespace TF.Core.Views
             }
             catch (Exception e)
             {
-                MessageBox.Show($"No se ha podido abrir el fichero.\r\n{e.GetType()}: {e.Message}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Impossible d'ouvrir le fichier.\r\n{e.GetType()}: {e.Message}", "ERREUR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
