@@ -1,0 +1,5 @@
+C:\Users\Mambilal\TranslationFramework2-master\src\TF.IO\bin\Debug\TF.IO.dll
+C:\Users\Mambilal\TranslationFramework2-master\src\TF.IO\bin\Debug\TF.IO.pdb
+C:\Users\Mambilal\TranslationFramework2-master\src\TF.IO\obj\Debug\TF.IO.csprojResolveAssemblyReference.cache
+C:\Users\Mambilal\TranslationFramework2-master\src\TF.IO\obj\Debug\TF.IO.dll
+C:\Users\Mambilal\TranslationFramework2-master\src\TF.IO\obj\Debug\TF.IO.pdb
